@@ -2425,3 +2425,28 @@ input {
 
 .pullquote {
   font-weight: bold; }
+
+.hero-img {
+  height: 370px;
+  overflow: hidden; }
+
+.site-logo {
+  width: 90%;
+  max-width: 28rem;
+  padding: 10px;
+  float: right; }
+
+.hoss-img {
+  width: 90%;
+  margin: -50px;
+  max-width: 40rem;
+  float: left;
+  overflow: hidden; }
+
+@media (max-width: 588px) {
+  .hoss-img {
+    display: none;
+    width: 0; }
+
+  .site-logo {
+    float: none; } }
